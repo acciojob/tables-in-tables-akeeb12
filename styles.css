@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+table,tr.Row1,td
+{
+		border:1px solid black;
+		height:10px;
+		width:50px
+}
+table,tr,td,table,th.tab1
+{
+	
+	
+	width:300px;
+	text-align:center;
+	height:300px;
+
+}
+
+
+
+
+
+
