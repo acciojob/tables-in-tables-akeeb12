@@ -1,23 +1,75 @@
-
-/* Your CSS Code here. */
-table,tr.Row1,td
-{
-		border:1px solid black;
-		height:10px;
-		width:50px
-}
-table,tr,td,table,th.tab1
-{
-	
-	
-	width:300px;
-	text-align:center;
-	height:300px;
-
+/* Basic table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
 }
 
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
 
+/* Header styling */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
 
+/* Row styling */
+.Row1 {
+    background-color: #f9f9f9;
+}
 
+/* Data cell styling */
+.Data1, .Data2 {
+    padding: 15px;
+}
 
+/* Nested table styling */
+.tab1 {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
 
+.tab1 th {
+    background-color: #f4f4f4;
+}
+
+.tab1 td {
+    background-color: #ffffff;
+}
+
+/* Links styling */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List styling */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Color and background styling for specific cells */
+td a {
+    color: #0066cc;
+}
+
+tr:last-child th {
+    color: white;
+    background-color: black;
+}
+table
+{
+	border:2px solid black;
+}
